@@ -1,0 +1,73 @@
+# depslib dependency file v1.0
+1541535678 source:d:\facultate\translator-design\ccompiler\main.cpp
+	<iostream>
+
+1541534030 source:d:\facultate\translator-design\ccompiler\lex.yy.c
+	<stdio.h>
+	<stdlib.h>
+	<unistd.h>
+	<io.h>
+	<stdlib.h>
+	"Symbol.h"
+	<stdlib.h>
+
+1541535000 d:\facultate\translator-design\ccompiler\symbol.h
+
+1544126088 source:d:\facultate\translator-design\ccompiler\parser.tab.c
+	<stddef.h>
+	<libintl.h>
+	<alloca.h>
+	<malloc.h>
+	<stdlib.h>
+	<stdlib.h>
+	<stdio.h>
+	<stdio.h>
+
+1547204909 source:c:\users\adi\desktop\ccompiler\lex.yy.c
+	<stdio.h>
+	<stdlib.h>
+	<unistd.h>
+	<io.h>
+	<stdlib.h>
+	"y.tab.h"
+	<stdlib.h>
+
+1547204748 c:\users\adi\desktop\ccompiler\y.tab.h
+
+1547204748 source:c:\users\adi\desktop\ccompiler\y.tab.c
+	<math.h>
+	<stdio.h>
+	<stdlib.h>
+	<stddef.h>
+	<libintl.h>
+	<alloca.h>
+	<malloc.h>
+	<stdlib.h>
+	<stdlib.h>
+	<stdio.h>
+	<ctype.h>
+
+1571780164 source:c:\users\rodica\desktop\tiny\tiny\lex.yy.c
+	<stdio.h>
+	<stdlib.h>
+	<unistd.h>
+	<io.h>
+	<stdlib.h>
+	"y.tab.h"
+	<stdlib.h>
+
+1571780164 c:\users\rodica\desktop\tiny\tiny\y.tab.h
+
+1571780164 source:c:\users\rodica\desktop\tiny\tiny\y.tab.c
+	<math.h>
+	<stdio.h>
+	<stdlib.h>
+	<stddef.h>
+	<libintl.h>
+	<alloca.h>
+	<malloc.h>
+	<stdlib.h>
+	<stdlib.h>
+	<stdio.h>
+	<ctype.h>
+

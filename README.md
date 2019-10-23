@@ -1,5 +1,5 @@
 # Translator-Design
-## Homework 1.6##
+## Homework 1.6
 **1. Standard Compiler Design projects** (compilers for some simplified programming languages), which involves the main phases of the compiling process. These projects have maximum two extra credit points.
 
 For a project having the type B or C, a scanner generator can be used (lex of Flex for C/C++ and JLex or JFlex for Java).

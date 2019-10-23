@@ -5,6 +5,8 @@
 NAME [a-zA-Z]
 whitespace [ \r\t\v\f]
 linefeed \n
+tab \t
+NUMBER [0-9]+
 
 %%
 {name} {return NAME;}
@@ -37,4 +39,7 @@ linefeed \n
 "while" {return WHILE;}
 {whitespace}
 {linefeed}
+"//" {return COMMENT;}
+"/*" {return COMMENT;}
+"*/" {return COMMENT;}
 %%

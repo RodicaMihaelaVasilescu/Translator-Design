@@ -6,8 +6,28 @@
 #include <stdio.h>
 #include <stdlib.h>
 #include <string.h>
+typedef enum {
+    S_empty = 1,
+  S_Program,
+  S_VarDecl,
+  S_Type,
+  S_FnDecl,
+  S_Parameters,
+  S_FormalsList,
+  S_FormalDecl,
+  S_Block,
+  S_DeclList,
+  S_StmtList,
+  S_Stmt,
+  S_Exp,
+  S_Atom,
+  S_FnCallExpr,
+  S_FnCallStmt,
+  S_ActualList,
+  S_SubscriptExpr,
+  S_Id
+} Syn_Unit_Cont;
 
-/* TreeNode Structure*/
 typedef struct TreeNode {
   Syn_Unit_Cont s_cont;
   int childnum;

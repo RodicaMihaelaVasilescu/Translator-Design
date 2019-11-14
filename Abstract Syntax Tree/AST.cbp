@@ -11,6 +11,7 @@
 				<Option object_output="obj/Debug/" />
 				<Option type="1" />
 				<Option compiler="gcc" />
+				<Option parameters="-i test.in" />
 				<Compiler>
 					<Add option="-g" />
 				</Compiler>
@@ -31,9 +32,22 @@
 		<Compiler>
 			<Add option="-Wall" />
 		</Compiler>
+		<Unit filename="ast.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="ast.h" />
+		<Unit filename="lex.yy.c">
+			<Option compilerVar="CC" />
+		</Unit>
 		<Unit filename="main.c">
 			<Option compilerVar="CC" />
 		</Unit>
+		<Unit filename="test.in" />
+		<Unit filename="test.input.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="test.out" />
+		<Unit filename="y.tab.h" />
 		<Extensions>
 			<code_completion />
 			<envvars />
